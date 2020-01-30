@@ -1,11 +1,11 @@
 {
-  "name": "lab2-tdd",
-  "version": "1.0.0",
+  "name": "shipping-service-7",
+  "version": "1.0.1",
   "description": "Lab2 app",
-  "main": "app.js",
+  "main": "apps.js",
   "scripts": {
     "test": "jest tests --env=node",
-    "start": "node src/app.js"
+    "start": "node src/apps.js"
   },
   "engines": {
     "node": "8.11.3",
@@ -18,10 +18,6 @@
   },
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "scripts": {
-    "test": "jest tests --env=node",
-    "start": "node src/app.js"
   },
   "devDependencies": {
     "axios": "^0.18.1",
