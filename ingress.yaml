@@ -7,7 +7,7 @@ metadata:
     app: shipping-service
 spec:
   rules:
-  - host: shipping-service-lab-cnb-7.cnbopenshift-4541c909052590f055286494a1af3e6a-0001.eu-de.containers.appdomain.cloud
+  - host: shipping-service-lab-cnb-7.cnb-barcelona-2020-4541c909052590f055286494a1af3e6a-0001.eu-gb.containers.appdomain.cloud
     http:
       paths:
       - path: /
