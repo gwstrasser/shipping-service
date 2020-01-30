@@ -16,6 +16,7 @@ app.get('/*shipping', (request, response) => {
     .catch(error => {
       response.status(500).send({ error: error.message })
     })
+    console.log("request for " + request.query.itemId)
 
 })
 let PORT = process.env.PORT || 3001;
